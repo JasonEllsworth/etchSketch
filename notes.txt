@@ -1,0 +1,31 @@
+part 1 : getting things started
+
+    Create a div in the HTML file. This div will be the main container for the grid.
+
+            x create a single div in the body.
+            x make its ID grid-container.
+
+        !!!!Do not create any other divs within this container.
+
+    create divs through javaScript DOM manipulation.
+
+        each div should be created by a for loop.
+        The function should take in a certain amount of grid squares.
+        two four loops should iterate through the 16 squares as the project
+        first goal should be 16x16
+            it could also be that we create 32 boxes then flex them into rows.
+
+    !!!There should be 16 div boxes within the main DIV container.
+
+        These containers should be manipulated by flexbox to conform to columns and rows.
+
+        flex should grow to stay within a certain amount of space for the main box.
+        likely the flexbox will need to support 64 boxes before wrapping to the next row.
+
+    When mousing over elements the individual divs should change colors and leave a trail of
+    where the mouse has been.
+
+        the javascript should have some sort of mouse over listener. When the element has the event, javascript should trigger it to add a different css styling that changes its color.
+
+        however, I am not clear on how to create a trail from the mouse curser as it passes
+        through the div. It is possible that the divs are small enough already that they are the things changing from a white background to a black one.
