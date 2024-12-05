@@ -20,5 +20,6 @@ function createGrid() {
 sixTeen(16);
 
 div.addEventListener('mouseover', event => {
-    console.log('mouseover');
+    event.target.style.backgroundColor = 'white';
+
 });
