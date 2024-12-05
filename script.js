@@ -1,4 +1,5 @@
 const grid = document.querySelector('#gird-container');
+const div = document.querySelector('div');
 
 //builds the first 16x16 grid.
 
@@ -17,3 +18,7 @@ function createGrid() {
 }
 
 sixTeen(16);
+
+div.addEventListener('mouseover', event => {
+    console.log('mouseover');
+});
