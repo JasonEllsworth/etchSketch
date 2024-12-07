@@ -7,20 +7,21 @@ part 1 : getting things started
 
         !!!!Do not create any other divs within this container.
 
-    create divs through javaScript DOM manipulation.
+    xcreate divs through javaScript DOM manipulation.
 
-        each div should be created by a for loop.
-        The function should take in a certain amount of grid squares.
-        two four loops should iterate through the 16 squares as the project
-        first goal should be 16x16
-            it could also be that we create 32 boxes then flex them into rows.
+        xeach div should be created by a for loop.
+        xThe function should take in a certain amount of grid squares.
+        xtwo four loops should iterate through the 16 squares as the project
+        xfirst goal should be 16x16
+           x it could also be that we create 32 boxes then flex them into rows.
 
-    !!!There should be 16 div boxes within the main DIV container.
+    x!!!There should be 16 div boxes within the main DIV container.
 
-        These containers should be manipulated by flexbox to conform to columns and rows.
+        xThese containers should be manipulated by flexbox to conform to columns and rows.
 
-        flex should grow to stay within a certain amount of space for the main box.
-        likely the flexbox will need to support 64 boxes before wrapping to the next row.
+        fxlex should grow to stay within a certain amount of space for the main box.
+        xlikely the flexbox will need to support 64 boxes before wrapping to the next row.
+
 
     When mousing over elements the individual divs should change colors and leave a trail of
     where the mouse has been.
